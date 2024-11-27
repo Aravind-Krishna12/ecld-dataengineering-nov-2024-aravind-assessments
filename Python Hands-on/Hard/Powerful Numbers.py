@@ -1,3 +1,5 @@
+#Check whether the squares of the prime factors of a given number divides the number
+
 def is_powerful(n):
 	number = n
 	factors = []

@@ -1,3 +1,6 @@
+#Add two string literals after converting it into integer
+
+
 def add(n1, n2):
 		if n1 == "" or n2 is None :
 			return "Invalid Operation"

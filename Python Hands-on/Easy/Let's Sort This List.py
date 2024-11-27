@@ -1,3 +1,5 @@
+#Sort the list in a given order
+
 def asc_des_none(lst, s):
 	if s == "Asc" :
 			return sorted(lst)

@@ -1,3 +1,5 @@
+#Combine two lists and Check whether all the elements in sorted list are consecutive numbers
+
 def consecutive_combo(lst1, lst2):
     lst3 = lst1 + lst2
     lst3.sort() 

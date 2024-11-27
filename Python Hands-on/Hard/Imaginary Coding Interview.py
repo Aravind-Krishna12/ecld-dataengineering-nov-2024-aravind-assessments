@@ -1,3 +1,6 @@
+#Check whether the elements in the list  pass certain condition and also the second argument (total minute) is less than 120
+
+
 def interview(lst, tot):
     if len(lst) == 8:
         if (lst[0]>5 and lst[1] > 5):
