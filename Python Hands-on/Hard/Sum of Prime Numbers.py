@@ -15,5 +15,10 @@ def sum_primes(lst):
 			if len(lst1) == 2 :
 				lst2.append(i)
 	return sum(lst2[0:len(lst2)])
-					
+
+lst_1 =input("Enter the numbers separated by comma : ")
+lst  = list(map(int,lst_1.split(",")))
+print(sum_primes(lst))
+
+
 		
