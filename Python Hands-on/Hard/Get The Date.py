@@ -15,7 +15,7 @@ get_day("12/08/2011") ➞ "Thursday"'''
 from datetime import datetime
 import calendar
 def get_day(day):
-    day_num = datetime.strptime(day, '%m/%d/%Y').weekday()
+    day_num = datetime.strptime(day, '%d/%m/%Y').weekday()
     return calendar.day_name[day_num]
 
 

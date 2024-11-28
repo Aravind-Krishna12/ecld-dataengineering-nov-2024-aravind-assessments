@@ -14,9 +14,11 @@ from datetime import datetime
 import calendar
 
 def has_friday_13(month, year):
-    date = '{} 13 {}'.format(month,year)
-    day_num = datetime.strptime(date, '%m %d %Y').weekday()
+    date = '13 {} {}'.format(month,year)
+    day_num = datetime.strptime(date, '%d %m %Y').weekday()
     return (calendar.day_name[day_num]) == "Friday"
 
 
-has_friday_13(3, 2020)
+month = int(input("Enter the month in number : "))
+year = int(input("Enter the year : "))
+print(has_friday_13(month,year))
