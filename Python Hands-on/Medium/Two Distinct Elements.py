@@ -10,14 +10,14 @@ return_unique([9, 5, 6, 8, 7, 7, 1, 1, 1, 1, 1, 9, 8]) ➞ [5, 6]'''
 
 
 def return_unique(lst):
-	a = ['']
+	a = []
 	for i in lst :
 		if lst.count(i) < 2 :
 			a.append(i)
 			
 	return a
 
-lst_1 =input("Enter the elements separated by comma : ")
+lst_1 =input("Enter the numbers separated by comma : ")
 lst  = lst_1.split(",")
 print(return_unique(lst))
 	
