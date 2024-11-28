@@ -22,7 +22,7 @@ def num_type(n):
 			return "Amicable"
 		else :
 			return "Neither"
-	#else: return "only number is allowed"
+
 	
 n=input("Enter the number : ")
 print(num_type(n))
