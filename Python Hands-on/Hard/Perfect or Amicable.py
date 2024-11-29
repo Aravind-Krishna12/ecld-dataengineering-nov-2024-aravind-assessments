@@ -1,7 +1,15 @@
 '''Given a positive number x, if all the positive divisors of x (excluding x) add up to x, 
 then x is said to be a perfect number.
 Given a positive number x, if all the positive divisors of x add up to a second number y, 
-and all the positive divisors of y add up to x, then x and y are said to be a pair of amicable numbers.'''
+and all the positive divisors of y add up to x, then x and y are said to be a pair of amicable numbers.
+
+Examples
+num_type(6) ➞ "Perfect"
+
+num_type(2924) ➞ "Amicable"
+
+num_type(5010) ➞ "Neither"
+'''
 
 def num_type(n):
 		try:
