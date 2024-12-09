@@ -24,7 +24,7 @@ A Training Repository that hosts exercises done and assesments conducted.
 - [Powerful Numbers](https://edabit.com/challenge/aW8mz7Tky3gGiuQsX) - [Solution](exercises\hard\PowerfulNumbers.py)
 - [Sum of Prime Numbers](https://edabit.com/challenge/GAbxxcsKoLGKtwjRB) - [Solution](exercises\hard\SumofPrimeNumbers.py)
 - [Perfect or Amicable?](https://edabit.com/challenge/9cNxcMjfEMzKYoBZY) - [Solution](exercises\hard\PerfectorAmicable.py)
-- - [Friday The 13th](https://edabit.com/challenge/Xkc2iAjwCap2z9N5D) - [Solution](exercises\hard\FridayThe13th.py)
+- [Friday The 13th](https://edabit.com/challenge/Xkc2iAjwCap2z9N5D) - [Solution](exercises\hard\FridayThe13th.py)
 - [Get the Date](https://edabit.com/challenge/3oqStN7bevcT72fgk) - [Solution](exercises\hard\GetTheDate.py)
 - [Multiplication Table](https://edabit.com/challenge/AdJNWPbfL9LunsNh9) - [Solution](exercises\hard\MultiplicationTable.py) 
 - [Fast Fibonacci](https://edabit.com/challenge/BYDZmaM6e4TQrgneb) - [Solution](exercises\hard\FastFibonacci.py)
