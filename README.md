@@ -1,4 +1,4 @@
-# Aravind Training Repository
+# Aravind's Training Repository
  
 ## Overview
 A Training Repository that hosts exercises done and assesments conducted.
